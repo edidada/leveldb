@@ -283,7 +283,7 @@ if(LEVELDB_BUILD_TESTS)
 
   if(NOT BUILD_SHARED_LIBS)
     leveldb_test("${PROJECT_SOURCE_DIR}/app/app_test.cc")
-    leveldb_test("${PROJECT_SOURCE_DIR}/app/abctest.cc")
+    leveldb_test("${PROJECT_SOURCE_DIR}/app/testexample.cc")
     leveldb_test("${PROJECT_SOURCE_DIR}/db/autocompact_test.cc")
     leveldb_test("${PROJECT_SOURCE_DIR}/db/corruption_test.cc")
     leveldb_test("${PROJECT_SOURCE_DIR}/db/db_test.cc")
