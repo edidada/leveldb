@@ -6,3 +6,16 @@
 # Build directory.
 build/
 out/
+
+.cproject
+
+.project
+
+.settings/
+
+
+### IntelliJ IDEA ###
+.idea
+#*.iws
+#*.iml
+#*.ipr

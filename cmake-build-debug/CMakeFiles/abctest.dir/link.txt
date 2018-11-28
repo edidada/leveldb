@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/abctest.dir/util/testharness.cc.o CMakeFiles/abctest.dir/util/testutil.cc.o CMakeFiles/abctest.dir/app/abctest.cc.o  -o abctest libleveldb.a -lpthread 
