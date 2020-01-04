@@ -1,0 +1,1 @@
+add_executable(mydbimpl mydb/mydbimpl.cpp)
