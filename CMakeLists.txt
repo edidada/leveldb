@@ -87,6 +87,7 @@ target_sources(leveldb
     "${PROJECT_SOURCE_DIR}/db/builder.h"
     "${PROJECT_SOURCE_DIR}/db/c.cc"
     "${PROJECT_SOURCE_DIR}/db/db_impl.cc"
+#    "${PROJECT_SOURCE_DIR}/app/mydb/mydbimpl.cpp"
     "${PROJECT_SOURCE_DIR}/db/db_impl.h"
     "${PROJECT_SOURCE_DIR}/db/db_iter.cc"
     "${PROJECT_SOURCE_DIR}/db/db_iter.h"
@@ -237,7 +238,12 @@ target_link_libraries(leveldb Threads::Threads)
 add_executable(leveldbutil
   "${PROJECT_SOURCE_DIR}/db/leveldbutil.cc"
 )
+
 target_link_libraries(leveldbutil leveldb)
+#add_executable(app_test
+#  "${PROJECT_SOURCE_DIR}/app/app_test.cc"
+#)
+#target_link_libraries(app_test leveldb)
 
 if(LEVELDB_BUILD_TESTS)
   enable_testing()
