@@ -2,7 +2,7 @@
 
 ## compile docs
 
-(编译测试例子)[https://zhuanlan.zhihu.com/p/34657032]
+[编译测试例子](https://zhuanlan.zhihu.com/p/34657032)
 
 按照例子，执行cmake完毕
 
@@ -18,7 +18,7 @@ ls
 ```
 
 
-(leveldb source code anynastic)[https://github.com/snipercy/leveldb]
+[leveldb source code anynastic](https://github.com/snipercy/leveldb)
 
 
 ## function reference
