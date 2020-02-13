@@ -68,3 +68,7 @@ Process finished with exit code 0
 
 cmake
 include()语法
+
+cmake设置软件版本
+set(GOOGLETEST_VERSION 1.10.0)
+project(leveldb VERSION 1.22.0 LANGUAGES C CXX)
